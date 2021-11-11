@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
     }
 
-/*    @Test(priority = 10)
+    @Test(priority = 10)
     public void checkDemoqaPage() throws InterruptedException {
         demoqaPage.getElements();
         demoqaPage.getForms();
@@ -111,7 +111,7 @@ import org.testng.annotations.Test;
         Thread.sleep(2000);
 
 
-        //boolean
+        
         Assert.assertTrue(textBoxElementsPage.getFullNameField().isDisplayed());
         Assert.assertTrue(textBoxElementsPage.getEmailField().isDisplayed());
         Assert.assertTrue(textBoxElementsPage.getCurrentAddressField().isDisplayed());
@@ -384,12 +384,9 @@ import org.testng.annotations.Test;
         formsMenuPage.getSubmitButtonForms();
         formsMenuPage.clickSubmitButtonForms();
 
-     //   Assert.assertTrue(formsMenuPage.successfulSubmittingButton());
+        Assert.assertTrue(formsMenuPage.successfulSubmittingButton());
     }
 
-
-
- */
 
     @Test (priority = 160)
         public void checkBrowserWindowsFunctions() throws InterruptedException {
@@ -411,5 +408,4 @@ import org.testng.annotations.Test;
         browserWindowsAFW.clickNewWindowMessage();
     }
 
-
-    }
+}
